@@ -41,7 +41,6 @@ class CommandsManager {
     for (const alias of aliases) {
       this.commandsHashMap[alias] = command;
     }
-    console.log(this.commandsHashMap);
   }
 }
 
